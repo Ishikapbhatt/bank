@@ -34,7 +34,7 @@ variable "node_instance_types" {
 
 variable "ami_id" {
   type    = list(string)
-  default = ["ami-0290e60ec230db1e4"]
+  default = ["ami-0b6c6ebed2801a5cb"]
 }
 
 variable "desired_size" {
