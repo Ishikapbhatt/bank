@@ -34,6 +34,11 @@ variable "node_instance_types" {
   default = ["t3.medium"]
 }
 
+variable "ami_id" {
+  type    = list(string)
+  default = ["ami-0290e60ec230db1e4"]
+}
+
 variable "desired_size" {
   type    = number
   default = 2
