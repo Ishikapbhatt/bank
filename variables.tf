@@ -1,6 +1,6 @@
 variable "aws_region" {
   type    = string
-  default = "us-west-2"
+  default = "us-east-1"
 }
 
 variable "vpc_cidr" {
@@ -17,7 +17,7 @@ variable "private_subnets" {
 
 variable "ssh_key_name" {
   type = string
-  default = "your-ec2-keypair-name"  # replace with your actual keypair
+  default = "ishika"  # replace with your actual keypair
 }
 
 variable "cluster_name" {
