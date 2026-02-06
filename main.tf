@@ -23,6 +23,7 @@ module "eks" {
   eks_role_arn              = module.iam.eks_cluster_role_arn
   node_instance_role_arn    = module.iam.eks_node_role_arn
   node_instance_types       = var.node_instance_types
+  ami_id                    = var.ami_id
   desired_size              = var.desired_size
   min_size                  = var.min_size
   max_size                  = var.max_size
